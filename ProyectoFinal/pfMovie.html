@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleFilms.css">
+    <title>Cinemania Películas</title>
+</head>
+<body>
+
+    <header>
+        <h1>CINEMANIA</h1>
+    </header>
+
+    <div class="bv">
+        <a href="pf.html">Inicio</a>
+        <a href="pfMovie.html">Películas</a>
+        <a href="pfActor.html">Actores</a>
+    </div>
+
+    <div class="contPadre">
+        <div class="info">
+            <h3>Películas:</h3>
+            <div class="contenedor" id="contenedor">
+                <ul class="listaPelis" id="listaPelis">
+                </ul>
+                <ul class="lP"m id="lP">
+                </ul>
+            </div>
+        </div>
+    
+        <div class="busquedas">
+            <section class="form" id="form">
+                <h4>Inserte nueva película en la biblioteca</h4>
+                <div class="inputs">
+                    <input class="controls" type="text" name="name" id="name" placeholder="Nombre pelicula">
+                    <input class="controls" type="date" name="anno" id="anno" placeholder="Anno de lanzamiento">
+                    <input class="controls" type="text" name="actor" id="actor" placeholder="Cast"><br><br>
+                    <input class="controls" type="text" name="nacionalidad" id="nacionalidad" placeholder="Nacionalidad">
+                    <input class="controls" type="text" name="director" id="director" placeholder="Director">
+                    <input class="controls" type="text" name="escritor" id="escritor" placeholder="Escritor"><br><br>
+                    <input class="controls" type="text" name="idioma" id="idioma" placeholder="Idioma">
+                    <input class="controls" type="text" name="plataforma" id="plataforma" placeholder="Plataforma">
+                    <input class="controls" type="text" name="mcu" id="mcu" placeholder="Si/No MCU"><br><br>
+                    <input class="controls" type="text" name="main" id="main" placeholder="Actor principal">
+                    <input class="controls" type="text" name="productor" id="productor" placeholder="Productor">
+                    <input class="controls" type="text" name="distribuidor" id="distribuidor" placeholder="Distribuidor"><br><br>
+                    <input class="controls" type="text" name="genero" id="genero" placeholder="Genero"><br><br>
+                    <input class="controls" type="text" name="foto" id="foto" placeholder="URL de Imagen">
+                    <!--<input class="boton" type="button" id="info" value="Solicitar info">-->
+                </div>
+            </section>
+            
+            <section class="fb">
+                <button class="boton" type="button" id="info" value="Solicitar info" onclick="addFilm()"> Ingresar pelicula</button>
+            </section>
+        </div>
+    </div>
+
+    <script src="movie.js"></script>
+
+</body>
+</html>

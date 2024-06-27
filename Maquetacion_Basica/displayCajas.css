@@ -1,0 +1,109 @@
+.contenedor{
+height: 50vh;
+width: 15vw;
+border: 8px solid rgb(229, 227, 230);
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+font-family: Arial;
+padding: 3px;
+}
+
+/*Head*/
+.Head{
+    height: 10%;
+    border: 4px solid rgb(179, 209, 173);
+    border-radius: 5px;
+    margin-bottom: 3px;
+    padding: 4px;
+}
+/*Nav*/
+.Nav{
+    height: 5%;
+    border: 4px solid rgb(196, 170, 181);
+    border-radius: 5px;
+    margin-bottom: 3px;
+    padding: 4px;
+}
+
+/*Article+DIV*/
+.artDiv{
+    height: 70%;
+    display: flex;
+    margin-bottom: 3px;
+}
+/*Article (art1+art2)*/
+.art{
+    width: 70%;
+    border: 4px solid rgb(134, 170, 189);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*art1*/
+.art1{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-content: flex-start;
+    padding: 3px;
+}
+.header{
+    height: 30%;
+    border: 3px solid rgb(184, 200, 177);
+    border-radius: 4px;
+    padding: 4px;
+}
+
+/*art2*/
+.art2{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
+section{
+    height: 40%;
+    border: 3px solid rgb(183, 136, 197);
+    border-radius: 5px;
+    margin-bottom: 2px;
+    padding: 4px;
+}
+.foot1{
+    height: 20%;
+    border: 3px solid rgb(234, 229, 174);
+    border-radius: 5px;
+}
+
+/*DIV*/
+.div{
+    width: 27%;
+    border: 4px solid rgb(230, 213, 181);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+.as1{
+    height: 47%;
+    border: 4px solid rgb(128, 210, 213);
+    border-radius: 5px;
+    margin-bottom: 2px;
+    padding: 4px;
+}
+.as2{
+    height: 47%;
+    border: 4px solid rgb(128, 210, 213);
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.foot2{
+    height: 5%;
+    border: 4px solid rgb(234, 229, 174);
+    border-radius: 5px;
+    padding: 4px;
+}

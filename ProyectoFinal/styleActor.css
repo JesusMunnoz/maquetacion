@@ -1,0 +1,104 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #121317;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: #ddda15;
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+}
+
+.bv{
+    background-color: #77750c;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.contPadre{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    width: 70%;
+    height: 600px;
+    color: aliceblue;
+}
+
+.contenedor{
+    width: 95%;
+    height: 400px;
+    color: aliceblue;
+}
+
+.listaActores{
+    width: 95%;
+    height: 350px;
+    list-style: none;
+}
+
+img{
+    width: 100px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 435px){
+    body{
+        padding: 0;
+        margin: 0;
+        background: #121317;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        width: 100vw;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    header{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .bv{
+        background-color: #77750c;
+        width: 100vw;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+    }
+    .contPadre{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px; 
+    }
+}

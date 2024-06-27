@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>array</h1>
+    
+    <div id="array-container">
+        <ul id="lista">
+            
+        </ul>
+    </div>
+    
+    <script>
+        
+        let miArray = ['rojo', 'azul', 'naranja', 'verde'];
+    
+        let ul = document.getElementById('lista');
+    
+        for (let i = 0; i < miArray.length; i++) {
+            let li = document.createElement('li');
+            li.textContent = miArray[i];
+            ul.appendChild(li);
+        }
+    </script>
+    
+</body>
+</html>

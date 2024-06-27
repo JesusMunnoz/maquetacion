@@ -1,0 +1,149 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #121317;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: #ddda15;
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+}
+
+.bv{
+    background-color: #77750c;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.contPadre{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    /*border: 3px solid red;*/
+}
+
+.info{
+    width: 80%;
+    color: aliceblue;
+
+}
+
+.busquedas{
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /*border: 3px solid blue;*/
+}
+
+.form{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /*border: 3px solid green*/
+}
+.inputs{
+    width: 90%;
+    height: 50%;
+}
+
+.fb{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 3px solid greenyellow*/
+}
+
+button{
+    background-color: #18f98f;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+}
+
+img{
+    width: 100px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1000px){
+    .busquedas{
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 50px;
+    }   
+}
+
+@media screen and (max-width: 435px){
+    body{
+        padding: 0;
+        margin: 0;
+        background: #121317;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        width: 100vw;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    header{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .bv{
+        background-color: #77750c;
+        width: 100vw;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+    }
+    .contPadre{
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px; 
+    }
+}
+

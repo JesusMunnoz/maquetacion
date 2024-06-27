@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    
+}
+.contenedor{
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    background-color: black;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 200%;
+}
+
+.hpimg{
+    height: 92%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.fondo{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    
+}
+h1{
+    font-size: 50px;
+}
+.imagen{
+    height: 70%;
+    
+}
+img{
+    width: auto;
+    height: 100%;
+}
+
